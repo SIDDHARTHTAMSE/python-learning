@@ -1,0 +1,41 @@
+Stores project dependencies.
+
+Example:
+
+fastapi==0.112.0
+uvicorn==0.30.0
+pandas==2.2.2
+Why Use requirements.txt?
+
+If your friend downloads your project:
+
+git clone project
+
+They can install everything with one command.
+
+Example 1
+
+Create file:
+
+requirements.txt
+
+Content:
+
+fastapi
+uvicorn
+Example 2
+
+Install requirements.
+
+pip install -r requirements.txt
+Example 3
+
+Generate requirements.
+
+pip freeze > requirements.txt
+Example 4
+
+View requirements file.
+
+fastapi==0.112.0
+uvicorn==0.30.0
